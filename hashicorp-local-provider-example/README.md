@@ -1,4 +1,4 @@
-**[Hashicorp local provider](https://registry.terraform.io/providers/hashicorp/local/latest/docs)**
+# **[Hashicorp local provider](https://registry.terraform.io/providers/hashicorp/local/latest/docs)**
 
     
     local_provider
@@ -9,12 +9,12 @@
           local_file
           local_sensitive_file
 
-<h1>Examples of Hashicorp local_provider</h1>
-       <h3>local_file resource with local_file data source</h3>
-       <h3>local_sensitive_file resource with local_sensitive_file data source</h3>
+# Examples of Hashicorp local_provider
+   > ### local_file resource with local_file data source
+   > ### local_sensitive_file resource with local_sensitive_file data source
 
 
-<h1>How to Run</h1> 
+# How to Run
 
    > **Assumption**: Terraform is already installed on your system.
 
