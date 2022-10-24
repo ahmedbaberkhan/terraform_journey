@@ -1,4 +1,4 @@
-<h1>Hashicorp local provider</h1>
+**[Hashicorp local provider](https://registry.terraform.io/providers/hashicorp/local/latest/docs)**
 
     
     local_provider
@@ -30,8 +30,3 @@
 
    4. The terraform destroy command terminates resources managed by your Terraform project. (in case you want to terminates resources) <br>
    ```terraform destroy``` <br><br>
-
-
-
-> For local-provider detail documentation.
-    [https://registry.terraform.io/providers/hashicorp/local/latest/docs](url)
