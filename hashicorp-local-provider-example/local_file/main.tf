@@ -25,6 +25,6 @@ resource "local_file" "output" {
     
     content = data.local_file.input.content
     file_permission = 777
-    directory_permission = 700 
+    directory_permission = 777 
 }
 
