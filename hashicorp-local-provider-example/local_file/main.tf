@@ -17,8 +17,14 @@ data "local_file" "input" {
 
 
 resource "local_file" "output" {
-    content = data.local_file.input.content
+    # Required Arguments
+    
     filename = var.output_file
-    file_permission = 777 
+
+    # Optional Arguments
+    
+    content = data.local_file.input.content
+    file_permission = 777
+    directory_permission = 700 
 }
 

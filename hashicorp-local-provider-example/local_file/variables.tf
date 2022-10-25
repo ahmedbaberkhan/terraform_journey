@@ -5,5 +5,5 @@ variable "input_file" {
 
 variable "output_file" {
     type = string
-    default = "output.txt"
+    default = "../output/output.txt"
 }
